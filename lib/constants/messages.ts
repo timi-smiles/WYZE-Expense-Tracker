@@ -1,0 +1,15 @@
+export const MESSAGES = {
+  expenseCreated: "Expense created successfully.",
+  expenseUpdated: "Expense updated successfully.",
+  expenseDeleted: "Expense deleted successfully.",
+  expenseNotFound: "Expense not found.",
+  invalidRequest: "Invalid request body.",
+  invalidJson: "Malformed JSON in request body.",
+  validationFailed: "Validation failed.",
+  serverError: "Something went wrong. Please try again later.",
+  loadFailed: "Unable to load expenses. Please try again.",
+  saveFailed: "Unable to save expense. Please try again.",
+  deleteFailed: "Unable to delete expense. Please try again.",
+  emptyExpenses: "No expenses yet. Add your first expense to get started.",
+  emptyFiltered: "No expenses match the selected category.",
+} as const;
